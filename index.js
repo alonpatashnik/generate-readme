@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./generateMarkdown");
 const fs = require('fs')
 
 // TODO: Create an array of questions for user input
@@ -43,9 +43,15 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Where should people contact with questions? (please enter your email)',
-        name: 'questions'
+        message: 'Please enter your github link',
+        name: 'github'
     },
+    {
+        type: 'input',
+        message: 'Please enter your email address',
+        name: 'email'
+    },
+    
 ];
 
 // TODO: Create a function to write README file

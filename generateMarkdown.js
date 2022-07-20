@@ -83,7 +83,8 @@ ${data.contributing}
 ## Tests
 ${data.test}
 ## Questions
-${data.questions}
+You can reach out to me with questions via email at ${data.email}<br/>
+You can find some of my other work here: [My Github](${data.github})
 `;
 }
 
